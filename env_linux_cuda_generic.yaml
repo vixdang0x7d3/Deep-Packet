@@ -1,0 +1,23 @@
+name: deep_packet
+
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - click
+      - jupyterlab
+      - matplotlib
+      - datasets
+      - pandas
+      - plotly
+      - pyspark
+      - pytorch-lightning
+      - scapy[complete]
+      - scikit-learn
+      - seaborn
+      - tensorboard
+      - torch
+      - torchvision
+      - torchaudio

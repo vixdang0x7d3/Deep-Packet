@@ -15,7 +15,7 @@ def confusion_matrix(data_path, model, num_class):
     data_path = Path(data_path)
     model.eval()
 
-    cm = np.zeros((num_class, num_class), dtype=np.float)
+    cm = np.zeros((num_class, num_class), dtype=float)
 
     dataset_dict = datasets.load_dataset(str(data_path.absolute()))
     dataset = dataset_dict[list(dataset_dict.keys())[0]]

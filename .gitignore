@@ -1,3 +1,9 @@
+# trivial script
+run_jupyter.sh
+
+# Fix note
+FIX.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
